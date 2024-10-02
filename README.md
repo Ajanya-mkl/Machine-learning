@@ -20,10 +20,10 @@ Welcome to the **Machine Learning Project** repository! This project contains im
 
 This repository is organized into the following folders:
 
-- **data/**: Contains the datasets used in the tutorial.
-- **notebooks/**: Includes Jupyter notebooks for different sections:
-  - **eda/**: Exploratory Data Analysis notebooks.
-  - **supervised/**: Supervised Learning notebooks.
-  - **unsupervised/**: Unsupervised Learning notebooks.
-  - **model_saving/**: Notebooks for saving and loading models.
+data/: Contains the datasets used in the tutorial.
 
+notebooks/: Includes Jupyter notebooks for different sections:
+
+supervised/: Supervised Learning notebooks.
+unsupervised/: Unsupervised Learning notebooks.
+fundamentals/: Core concepts and libraries like matplotlib, numpy, pandas, statistics, onehot, save_model, and train_test_split.
