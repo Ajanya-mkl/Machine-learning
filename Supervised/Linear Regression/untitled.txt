@@ -1,0 +1,25 @@
+Linear regression is one of the most fundamental and widely used algorithms in machine learning. It models the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the observed data.
+
+In this section, we will explore two types of linear regression:
+
+1. Simple Linear Regression
+Simple linear regression involves modeling the relationship between two variables—one independent variable and one dependent variable. The goal is to fit a straight line that best represents the data points.
+
+Example:  Predicting the price of a house based on its  location.
+
+2. Multiple Linear Regression
+Multiple linear regression extends the concept of simple linear regression by incorporating multiple independent variables to predict the dependent variable. This approach allows us to model more complex relationships between the variables.
+
+Example: Predicting the price of a house based on its size, number of rooms, and location.
+
+Datasets 
+1. California Housing Dataset
+Objective: We will use the California housing dataset to predict house prices.
+Key Steps:
+Outlier Detection and Removal: Identifying and removing data points that do not conform to the general pattern.
+Feature Scaling: Applying scaling techniques to ensure that all features contribute equally to the regression model.
+Model Evaluation: Evaluating the performance of the regression model using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+2. Hiring Dataset
+Objective: Predict the salary of a candidate based on various features, including their experience and test scores.
+Key Step:
+Word to Number Conversion: Converting textual features (e.g., "Five years of experience") into numerical form so they can be used in the regression model.
