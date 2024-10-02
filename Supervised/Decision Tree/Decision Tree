@@ -1,1 +1,36 @@
+Decision trees are versatile machine learning algorithms that can be used for both classification and regression tasks. A decision tree model splits the dataset into smaller subsets while incrementally building an associated decision tree. Each node represents a feature, each branch represents a decision, and each leaf represents an outcome. Decision trees are easy to interpret and visualize, making them popular for various machine learning problems.
+
+1. Decision Tree Classifier
+A decision tree classifier is used for categorical output. It predicts the class label based on a set of input features by following a sequence of decisions.
+
+Example: Predicting employee salaries based on features like experience, education, and job role.
+
+2. Decision Tree Regressor
+A decision tree regressor is used for continuous outputs. It estimates a target value by splitting the data and making decisions based on numerical variables.
+
+Example: Predicting a candidate's salary using the hiring.csv dataset by considering features like years of experience and test scores.
+
+Datasets 
+1. Salaries Dataset (Decision Tree Classifier)
+Objective: Use a decision tree classifier to predict whether an employee’s salary falls within a certain range based on various job-related factors.
+Key Steps:
+Train and evaluate the decision tree classifier.
+Visualize the decision tree and interpret the rules.
+2. Hiring Dataset (Decision Tree Regressor)
+Objective: Use a decision tree regressor to predict a candidate’s salary based on experience, test scores, and other features in the hiring dataset.
+Key Steps:
+Train the decision tree regressor.
+Evaluate model performance using metrics such as Mean Squared Error (MSE) and R-squared.
+3. Iris Dataset (Post-Pruning)
+Objective: Apply post-pruning techniques to avoid overfitting the decision tree model on the iris.csv dataset.
+Key Steps:
+Train the decision tree model.
+Implement post-pruning methods to reduce the model’s complexity.
+Compare performance before and after pruning.
+4. Iris Dataset (Pre-Pruning with Hyperparameter Tuning)
+Objective: Perform pre-pruning on the decision tree by tuning hyperparameters to optimize model performance on the iris.csv dataset.
+Key Steps:
+Use GridSearchCV to perform hyperparameter tuning.
+Implement pre-pruning strategies such as limiting the maximum depth and the minimum number of samples per leaf.
+Evaluate model performance using cross-validation.
 
