@@ -1,1 +1,13 @@
+Random Forest is an ensemble learning method that combines multiple decision trees to improve the accuracy and robustness of predictions. It works by building several decision trees and aggregating their results for classification or regression tasks. Random forests are known for reducing overfitting and improving the model’s generalization capability.
+
+1. Random Forest Classifier
+The Random Forest classifier builds multiple decision trees on random subsets of the dataset and averages their predictions to classify new data points.
+
+Example: Classifying digits from images based on pixel intensity values.
+
+2. Random Forest Regressor
+The Random Forest regressor builds an ensemble of decision trees to predict continuous values, averaging their results for more accurate predictions.
+
+Example: Predicting the price of automobiles based on features such as horsepower, weight, and fuel efficiency.
+
 
