@@ -1,22 +1,29 @@
 # Machine-learning
 Welcome to the **Machine Learning Project** repository! This project contains implementations of various machine learning algorithms, along with detailed explanations and code examples. The project is designed to help you understand core concepts in machine learning and how to apply them to real-world datasets.
+, we will explore various concepts and techniques in machine learning, including:
 
+- Data preparation using **pandas**
+- Data visualization with **matplotlib** and **seaborn**
+- Supervised learning techniques
+- Unsupervised learning techniques
+- Model evaluation and saving/loading models
 
-This repository contains machine learning models built using **Python**. The models are implemented using libraries such as **Scikit-learn**, **Pandas**, **NumPy**, and **Matplotlib**. The project demonstrates how to preprocess data, build models, and evaluate their performance.
+  To follow this tutorial, you will need:
 
-### Key Algorithms:
+- **Python**: A programming language commonly used for machine learning and data analysis.
+- **Jupyter Notebook**: An interactive environment for writing and running Python code, making it easier to document your thought process and visualize results.
+- **Libraries**:
+  - **pandas**: For data manipulation and analysis.
+  - **numpy**: For numerical computations and working with arrays.
+  - **matplotlib**: For creating static, animated, and interactive visualizations.
+  - **seaborn**: For statistical data visualization, built on top of matplotlib.
 
-- Linear Regression
-- Logistic Regression
-- Decision Trees
-- Random Forest
-- K-Nearest Neighbors (KNN)
-- Support Vector Machines (SVM)
+This repository is organized into the following folders:
 
+- **data/**: Contains the datasets used in the tutorial.
+- **notebooks/**: Includes Jupyter notebooks for different sections:
+  - **eda/**: Exploratory Data Analysis notebooks.
+  - **supervised/**: Supervised Learning notebooks.
+  - **unsupervised/**: Unsupervised Learning notebooks.
+  - **model_saving/**: Notebooks for saving and loading models.
 
-
-Dataset Preprocessing Includes:
-Handling missing values
-Encoding categorical data
-Feature scaling
-Splitting the data into training and testing sets
