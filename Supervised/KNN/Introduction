@@ -1,1 +1,11 @@
+K-Nearest Neighbors (KNN) is a simple, yet powerful, instance-based learning algorithm that can be used for both classification and regression tasks. The KNN algorithm works by finding the "k" nearest data points to a given instance and making predictions based on their values. It does not rely on a specific model but rather stores all available cases and classifies or predicts new data points based on similarity.
 
+1. KNN Classifier
+The KNN classifier is used for classification tasks, where the goal is to predict a categorical label. It assigns a class to a new data point based on the majority class of its nearest neighbors.
+
+Example: Classifying iris flower species based on petal and sepal measurements.
+
+2. KNN Regressor
+The KNN regressor is used for regression tasks, predicting continuous output by averaging the values of the nearest neighbors.
+
+Example: Predicting the price of a diamond based on features such as carat, cut, and clarity.
