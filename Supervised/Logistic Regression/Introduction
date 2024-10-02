@@ -1,4 +1,4 @@
-Introduction
+
 Logistic regression is a statistical method used for binary and multi-class classification problems. Unlike linear regression, which predicts continuous outcomes, logistic regression is used to predict the probability of a categorical outcome, typically modeled using a logistic function.
 
 1. Binary Logistic Regression
