@@ -1,1 +1,9 @@
-
+ XGBoost (Extreme Gradient Boosting)
+Concept: XGBoost is an advanced implementation of gradient boosting that includes several optimizations such as tree pruning, 
+regularization (L1 and L2), and efficient handling of missing values. It’s known for being fast and highly accurate.
+Key Features:
+Regularization to prevent overfitting.
+Built-in handling of missing data.
+Parallel processing for faster computation.
+Pros: Scalable, high performance, good for large datasets.
+Cons: Requires careful tuning of hyperparameters.
