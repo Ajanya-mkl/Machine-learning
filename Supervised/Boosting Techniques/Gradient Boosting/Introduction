@@ -1,1 +1,10 @@
-
+ Gradient Boosting
+Concept: Gradient Boosting builds models sequentially, like AdaBoost, but instead of focusing on misclassified instances, it fits the next learner on the residual errors of the previous learner. It minimizes a differentiable loss function by using gradient descent.
+Steps:
+Start with an initial prediction, typically the mean for regression or mode for classification.
+Calculate the residual errors (the difference between the actual values and predictions).
+Train the next weak learner to predict these residuals.
+Add the predictions of this learner to the overall model in a way that reduces the loss.
+Repeat this process until convergence or the desired number of trees.
+Pros: Very flexible and powerful, works well on both regression and classification problems.
+Cons: Can be slow to train, prone to overfitting without proper regularization.
