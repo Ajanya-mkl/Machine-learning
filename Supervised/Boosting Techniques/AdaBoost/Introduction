@@ -1,1 +1,15 @@
 
+AdaBoost (Adaptive Boosting)
+Concept: AdaBoost trains a sequence of weak learners, typically 
+decision trees with one split (called decision stumps). Each learner is trained on the data and 
+focuses more on the misclassified instances from the previous learners.
+The final prediction is a weighted sum of the individual predictions,
+where the learner’s performance determines the weight.
+Steps:
+Initialize weights for all training samples equally.
+Train the first weak learner.
+Increase weights for the incorrectly predicted samples.
+Train the next weak learner on the updated weighted data.
+Repeat and combine predictions using a weighted majority vote.
+Pros: Simple to implement, effective with minimal tuning.
+Cons: Sensitive to noise and outliers.
