@@ -1,1 +1,4 @@
-Boosting is a powerful ensemble learning technique in machine learning that aims to improve the performance of weak learners (typically decision trees) by combining them into a stronger model. The core idea is to sequentially train models, each attempting to correct the errors of its predecessor. There are several popular boosting algorithms, each with its unique approach. Here’s an overview of the key boosting techniques in machine learning:
+Boosting is a powerful ensemble learning technique in machine learning that aims to improve the performance of weak learners 
+(typically decision trees) by combining them into a stronger model. The core idea is to sequentially train models,
+each attempting to correct the errors of its predecessor. There are several popular boosting algorithms, each with its unique approach.
+Here’s an overview of the key boosting techniques in machine learning:
