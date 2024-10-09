@@ -1,5 +1,6 @@
  Gradient Boosting
-Concept: Gradient Boosting builds models sequentially, like AdaBoost, but instead of focusing on misclassified instances, it fits the next learner on the residual errors of the previous learner. It minimizes a differentiable loss function by using gradient descent.
+Concept: Gradient Boosting builds models sequentially, like AdaBoost, but instead of focusing on misclassified instances, it fits the next learner on the 
+residual errors of the previous learner. It minimizes a differentiable loss function by using gradient descent.
 Steps:
 Start with an initial prediction, typically the mean for regression or mode for classification.
 Calculate the residual errors (the difference between the actual values and predictions).
