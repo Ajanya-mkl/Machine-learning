@@ -1,1 +1,18 @@
+Naive Bayes Classification
+This folder contains implementations of Naive Bayes classifiers using both Gaussian Naive Bayes and Multinomial Naive Bayes approaches. Naive Bayes is a powerful 
+probabilistic classifier that applies Bayes' Theorem under the assumption that features are conditionally independent given the class label. 
+Despite its simplicity, it performs well in many classification tasks, especially with large datasets and high-dimensional data.
 
+Folder Contents:
+Gaussian Naive Bayes:
+This implementation is suitable for continuous data and assumes that the features follow a normal (Gaussian) distribution.
+The classifier is tested on datasets where features are continuous, demonstrating the model's ability to handle such data effectively.
+
+Multinomial Naive Bayes:
+This variant of Naive Bayes is designed for discrete data, often used in text classification tasks.
+
+Key features in this file:
+SMOTE (Synthetic Minority Oversampling Technique): Applied to handle class imbalance in the dataset, ensuring the model isn't biased towards the majority class.
+Regular Expressions (re module): Used for preprocessing text data, including cleaning and tokenization.
+TfidfVectorizer: Utilized for transforming text data into numerical form based on term frequency-inverse document frequency (TF-IDF), which helps in feature
+extraction for the model.
