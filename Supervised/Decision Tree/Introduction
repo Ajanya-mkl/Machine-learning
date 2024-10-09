@@ -1,7 +1,11 @@
-Decision trees are versatile machine learning algorithms that can be used for both classification and regression tasks. A decision tree model splits the dataset into smaller subsets while incrementally building an associated decision tree. Each node represents a feature, each branch represents a decision, and each leaf represents an outcome. Decision trees are easy to interpret and visualize, making them popular for various machine learning problems.
+Decision trees are versatile machine-learning algorithms that can be used for both classification and regression tasks.
+A decision tree model splits the dataset into smaller subsets while incrementally building an associated decision tree. 
+Each node represents a feature, each branch represents a decision, and each leaf represents an outcome. 
+Decision trees are easy to interpret and visualize, making them popular for various machine-learning problems.
 
 1. Decision Tree Classifier
-A decision tree classifier is used for categorical output. It predicts the class label based on a set of input features by following a sequence of decisions.
+A decision tree classifier is used for categorical output. It predicts the class label based on a set of input features by following a sequence of 
+decisions.
 
 Example: Predicting employee salaries based on features like experience, education, and job role.
 
